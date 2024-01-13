@@ -13,3 +13,6 @@ while True:
     print(list_of_words)
     time.sleep(5)
     os.system('clear')
+    
+    if user_setence == 'exit':
+        break
